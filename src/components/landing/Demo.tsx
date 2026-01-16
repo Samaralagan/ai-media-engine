@@ -35,7 +35,7 @@ export const Demo = () => {
   };
 
   return (
-    <section id="demo" className="section-padding gradient-surface">
+    <section id="demo" className="section-padding bg-white">
       <div className="container-wide">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left: Content */}
@@ -86,7 +86,7 @@ export const Demo = () => {
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.3 }}
-                  className="bg-muted/50 p-3 rounded-lg rounded-tl-none text-sm"
+                  className="bg-gray-50 p-3 rounded-lg rounded-tl-none text-sm"
                 >
                   Hi! I'm your TechKeyMedia AI assistant. How can I help you automate your content today?
                 </motion.div>

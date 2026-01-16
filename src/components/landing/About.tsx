@@ -173,8 +173,8 @@ export const About = () => {
             </p>
 
             <div className="space-y-4">
-              <div className="flex items-center gap-3 p-4 rounded-xl bg-muted/50">
-                <div className="w-10 h-10 rounded-lg bg-accent/50 flex items-center justify-center">
+              <div className="flex items-center gap-3 p-4 rounded-xl bg-gray-50 border border-gray-100">
+                <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
                   <Send className="w-5 h-5 text-primary" />
                 </div>
                 <div>
@@ -182,8 +182,8 @@ export const About = () => {
                   <p className="text-muted-foreground text-sm">hello@techkeymedia.info</p>
                 </div>
               </div>
-              <div className="flex items-center gap-3 p-4 rounded-xl bg-muted/50">
-                <div className="w-10 h-10 rounded-lg bg-accent/50 flex items-center justify-center">
+              <div className="flex items-center gap-3 p-4 rounded-xl bg-gray-50 border border-gray-100">
+                <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
                   <Calendar className="w-5 h-5 text-primary" />
                 </div>
                 <div>

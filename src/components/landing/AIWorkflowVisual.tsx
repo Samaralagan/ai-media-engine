@@ -15,8 +15,6 @@ const outputNodes = [
 export const AIWorkflowVisual = () => {
   return (
     <div className="relative w-full h-[400px] md:h-[500px]">
-      {/* Background Glow */}
-      <div className="absolute inset-0 bg-gradient-glow opacity-50" />
       
       {/* Animated Connection Lines - SVG */}
       <svg className="absolute inset-0 w-full h-full" viewBox="0 0 400 400">
