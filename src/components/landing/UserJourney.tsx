@@ -86,7 +86,7 @@ export const UserJourney = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="section-padding gradient-surface overflow-hidden">
+    <section className="section-padding bg-white overflow-hidden">
       <div className="container-wide">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -144,7 +144,7 @@ export const UserJourney = () => {
                 <div className="glass-card p-5 text-center">
                   <h3 className="font-heading text-lg font-semibold mb-2">{step.title}</h3>
                   <p className="text-sm text-muted-foreground mb-4">{step.description}</p>
-                  <div className="p-3 rounded-xl bg-muted/50">
+                <div className="p-3 rounded-xl bg-gray-50">
                     {step.mockContent}
                   </div>
                 </div>
@@ -178,7 +178,7 @@ export const UserJourney = () => {
               <div className="flex-1 glass-card p-4 mb-4">
                 <h3 className="font-heading text-lg font-semibold mb-2">{step.title}</h3>
                 <p className="text-sm text-muted-foreground mb-3">{step.description}</p>
-                <div className="p-3 rounded-xl bg-muted/50">
+                <div className="p-3 rounded-xl bg-gray-50">
                   {step.mockContent}
                 </div>
               </div>

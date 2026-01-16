@@ -31,7 +31,7 @@ const steps = [
 
 const StepVisual = ({ type }: { type: string }) => {
   return (
-    <div className="relative w-full h-48 md:h-56 rounded-2xl bg-gradient-surface overflow-hidden">
+    <div className="relative w-full h-48 md:h-56 rounded-2xl bg-gray-50 border border-gray-100 overflow-hidden">
       {type === 'data-pipeline' && (
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="flex items-center gap-4">

@@ -71,7 +71,7 @@ export const Features = () => {
   const isHeaderInView = useInView(headerRef, { once: true, margin: "-100px" });
 
   return (
-    <section id="features" className="section-padding gradient-surface">
+    <section id="features" className="section-padding bg-white">
       <div className="container-wide">
         <motion.div
           ref={headerRef}
